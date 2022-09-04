@@ -4,7 +4,7 @@
 # ===============================================
 cd
 rm -rf slhostdns.sh
-wget https://raw.githubusercontent.com/BangsNgek/slowdns/main/install.sh && chmod +x insta.sh && ./install.sh
+wget https://raw.githubusercontent.com/BangsNgek/slowdns/main/install.sh && chmod +x install.sh && ./install.sh
 nameserver=$(cat /root/nsdomain)
 apt update -y
 apt install -y python3 python3-dnslib net-tools
