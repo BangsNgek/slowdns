@@ -13,7 +13,7 @@ rm nsdomain
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
 DOMAIN=bangsngeks.my.id
-SUB_DOMAIN=sg-${sub}.bangsngeks.my.id
+SUB_DOMAIN=sg1.bangsngeks.my.id
 NS_DOMAIN=slowdns-${subsl}.bangsngeks.my.id
 CF_ID=bangsngek@gmail.com
 CF_KEY=9b8c1ae3cbbe24bcf77b7d0c4b50d60ebb087
